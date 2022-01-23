@@ -1,0 +1,73 @@
+#my-head-app{
+    background-color: gray;
+    color: rgb(12, 12, 12);
+    text-align: center;
+}
+
+fieldset{
+    padding-left: 200px;
+   width: auto;
+   justify-content: center;
+   background-color: gray;
+    
+
+}
+
+body{
+    
+    border-bottom: rgb(24, 9, 246);
+  
+}
+
+#solde{
+    background-color: gray;
+    margin-right: 1010px;
+    text-align: center;
+    padding-bottom: 12px;
+   
+}
+
+#etat{
+    float: right;
+    margin-top: -105px;
+    background-color: gray;
+    text-align: center;
+    padding-right: 75px;
+    padding-left: 75px;
+    padding-bottom: 0px
+}
+
+#lst-trans{
+    text-align: center;
+    width: 100%;
+    height: 55px;
+    line-height: 30px;
+    margin: 3px 0px;
+    border-color: black;
+    padding-bottom: 3%;
+    padding-left: 6px;
+    margin-right: 26px;
+    list-style: none;
+  }
+  
+
+#lst-trans li.debit{
+    color: rgb(250, 7, 19);
+    background-color: gray;
+    padding-bottom: 5px;
+    margin-bottom: 5px;
+    list-style: none;
+  }
+  #lst-trans li.credit{
+    color: rgb(1, 82, 1);
+    background-color: gray;
+    padding-bottom: 5px;
+    list-style: none;
+  }
+
+  #lt{
+      background-color: gray;
+      margin-right: 4px;
+  }
+
+  

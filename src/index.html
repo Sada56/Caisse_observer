@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Document</title>
+  </head>
+  <body>
+    
+    
+
+        <h1 id="my-head-app">Caisse</h1>
+        
+        <form>
+            <fieldset id="fieldset">
+            
+            
+            
+            <label for="">Type</label>
+            <select name="" id="type">
+              <option value="debit">Débit</option>
+              <option value="credit">Crédit</option>
+            </select>
+          
+
+          
+            <label for="">Montant</label>
+            <input type="number" id="montant" />
+          
+
+          
+            <label for="">Par qui ?</label>
+            <input type="text" id="who" />
+          
+
+          
+            <label for="">Motif</label>
+            <input type="text" id="motif" />
+          
+
+            <button type="button" id="btn">+</button>
+        </fieldset>
+    </form>
+    
+    
+    <div id="solde">
+        <h1>Solde</h1>
+        <p id="solde-text"></p>
+    </div>
+
+    <div id="etat">
+      <h1>Etat</h1>
+      <p id="solde-state"></p>
+    </div>
+    
+    <div id="lst-trans">
+        <h1 id="lt">Liste des transactions</h1>
+        <ul id="list-trans"></ul>
+    </div>
+    
+    
+    
+    
+    <script src="app.ts"></script>
+</body>
+</html>
